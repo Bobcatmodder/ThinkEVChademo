@@ -2,5 +2,9 @@ NOTICE: As the MIT liscense states, this is provided AS IS. YOU are completely r
 as a result of running this code. 400V and 100+A is nothing to laugh at, so be careful. 
 
 Description of files:
+- ThinkA306_MCP2515_CANReadout: Reads basic battery specifications via the CANBus. Can be plugged into the OBD2 port.
+  Uses a generic MCP2515 module (8Mhz oscillator) with 120Ohm termination. To read additional specs, read the 
+  document titled "Think A306 Battery Pack CAN Programmers Guide" and add those CAN messages to the program.
+  Ask Tom Goesch or me if you need the document.
 
 Last updated 4/30/2020
